@@ -6,7 +6,7 @@ exports.getExperiences = (req, res) => {
       period: "March 2018 - July 2018",
       projectSummary:
         "Worked on the process of updating Posco's portal site and developed customers’ (POSCO ICT Employees) requests while maintaining its website",
-      framework: "Struts111111111111111111111111111111",
+      framework: "Struts",
       languages: ["JAVA", "JavaScript", "JSP"],
       dbms: "Oracle",
       tools: ["Eclipse(IDE)", "Orange(DBMS tool)"],
