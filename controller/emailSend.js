@@ -51,7 +51,7 @@ exports.emailSendHandle = (req, res, next) => {
       console.log("Error: " + e);
     });
 
-  console.log("바깥:", statusMsg);
+  //console.log("statusMsg variable:", statusMsg);
 
   res.send(statusMsg);
 };
