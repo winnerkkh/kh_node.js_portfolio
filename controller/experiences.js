@@ -20,7 +20,6 @@ exports.getExperiences = (req, res) => {
       period: "July 2018 - October 2018",
       projectSummary:
         "Developing and building a new EMS (Equipment Management System) webpage that tracks the history of the assembled parts of the Samsung Semi-Conductor",
-      // frameworks: ["Anyframe Enterprise (Developed by Samsung SDS)"],
       frameworks: ["Anyframe Enterprise"],
       languages: ["JAVA", "HTML5", "JavaScript", "CSS"],
       dbms: ["Oracle SQL"],
