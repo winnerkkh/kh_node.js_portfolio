@@ -5,4 +5,8 @@ const route = express.Router();
 const experiences = require("../controller/experiences");
 route.route("/experiences").get(experiences.getExperiences);
 
+//Send mail to gmail for the feedback
+const emailSend = require("../controller/emailSend");
+route.route("/emailSend").post(emailSend.emailSendHandle);
+
 module.exports = route;
