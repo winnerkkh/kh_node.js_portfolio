@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Cross Domain Issue
 // Enable Cross Origin Resource Sharing (CORS)
 // This would enable CORS for all resources on your server.
+// res.setHeader() allows you only to set a singular header and res.header() will allow you to set multiple headers. So use the one fit with your needs.
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
